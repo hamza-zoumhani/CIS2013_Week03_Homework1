@@ -3,8 +3,8 @@ using namespace std;
 
 string player1;
 string player2;
-char choice1 = 'R';
-char choice2 = 'P';
+char choice1;
+char choice2;
 
 void printplayers(){
 	cout << "Please enter the name of Player1: ";
@@ -55,6 +55,7 @@ int main(){
 					default:
 						cout << choice2 << " is not valid..." << endl;
 				}
+				break;
 				
 				
 			case 'p':
