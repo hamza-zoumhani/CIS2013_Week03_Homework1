@@ -39,17 +39,17 @@ int main(){
 					
 					case 'r':
 					case 'R':
-						cout << "DRAW!" << endl;
+						cout << "Nobody wins" << endl;
 						break;
 					
 					case 'p':
 					case 'P':
-						cout << player2 << " WINS!" << endl;
+						cout << player2 << " wins! Paper covers rock" << endl;
 						break;
 						
 					case 's':
 					case 'S':
-						cout << player1 << " WINS!" << endl;
+						cout << player1 << " wins! Rock breaks scissors" << endl;
 						break;
 						
 					default:
@@ -64,17 +64,17 @@ int main(){
 					
 					case 'p':
 					case 'P':
-						cout << "DRAW!" << endl;
+						cout << "Nobody wins" << endl;
 						break;
 					
 					case 's':
 					case 'S':
-						cout << player2 << " WINS!" << endl;
+						cout << player2 << " wins! Scissors cut paper" << endl;
 						break;
 						
 					case 'r':
 					case 'R':
-						cout << player1 << " WINS!" << endl;
+						cout << player1 << " wins! Paper covers rock" << endl;
 						break;
 						
 					default:
@@ -88,17 +88,17 @@ int main(){
 					
 					case 's':
 					case 'S':
-						cout << "DRAW!" << endl;
+						cout << "Nobody wins" << endl;
 						break;
 					
 					case 'r':
 					case 'R':
-						cout << player2 << " WINS!" << endl;
+						cout << player2 << " wins! Rock breaks scissors" << endl;
 						break;
 						
 					case 'p':
 					case 'P':
-						cout << player1 << " WINS!" << endl;
+						cout << player1 << " wins! Scissors cut paper" << endl;
 						break;
 						
 					default:
