@@ -45,19 +45,64 @@ int main(){
 					case 'p':
 					case 'P':
 						cout << player2 << " WINS!" << endl;
-					
-					
+						break;
+						
+					case 's':
+					case 'S':
+						cout << player1 << " WINS!" << endl;
+						break;
+						
+					default:
+						cout << choice2 << " is not valid..." << endl;
 				}
+				
+				
 			case 'p':
 			case 'P':
-				if(('p'==choice2) | ('P' == choice2)){
-					cout << "DRAW!" << endl;}
+				switch(choice2){
+					
+					case 'p':
+					case 'P':
+						cout << "DRAW!" << endl;
+						break;
+					
+					case 's':
+					case 'S':
+						cout << player2 << " WINS!" << endl;
+						break;
+						
+					case 'r':
+					case 'R':
+						cout << player1 << " WINS!" << endl;
+						break;
+						
+					default:
+						cout << choice2 << " is not valid..." << endl;
+				}
 				break;
 				
 			case 's':
 			case 'S':
-				if(('p'==choice2) | ('P' == choice2)){
-					cout << player1 << " WINS!" << endl;}
+				switch(choice2){
+					
+					case 's':
+					case 'S':
+						cout << "DRAW!" << endl;
+						break;
+					
+					case 'r':
+					case 'R':
+						cout << player2 << " WINS!" << endl;
+						break;
+						
+					case 'p':
+					case 'P':
+						cout << player1 << " WINS!" << endl;
+						break;
+						
+					default:
+						cout << choice2 << " is not valid..." << endl;
+				}
 				break;
 				
 			
