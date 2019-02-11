@@ -7,7 +7,7 @@ char choice1;
 char choice2;
 
 void printplayers(){
-	cout << "Please enter the name of Player1: ";
+	cout << "\nPlease enter the name of Player1: ";
 	cin >> player1;
 	cout << "Please enter the name of Player2: ";
 	cin >> player2;
@@ -23,7 +23,7 @@ void printchoice(){
 int main(){
 	char again = 'Y';
 	
-	cout << "Welcome to C++ Rock-Paper-Scissors game! \n"<< endl;
+	cout << "Welcome to C++ Rock-Paper-Scissors game!\n"<< endl;
 	
 	do{
 		printplayers();
