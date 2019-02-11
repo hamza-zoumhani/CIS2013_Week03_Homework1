@@ -35,9 +35,31 @@ int main(){
 			
 			case 'r':
 			case 'R':
-				if(('p'==choice2) | ('P' == choice2)){
-					cout << player2 << " WINS!" << endl;}
+				switch(choice2){
+					
+					case 'r':
+					case 'R':
+						break;
+			
+					case 'p':
+					case 'P':
+					
 				break;
+				
+			case 's':
+			case 'S':
+				if(('p'==choice2) | ('P' == choice2)){
+					cout << player1 << " WINS!" << endl;}
+				break;
+				
+			
+			
+			default:
+				cout << choice1 << " is not valid..." << endl;
+					
+				break;
+			
+			
 			
 			case 'p':
 			case 'P':
